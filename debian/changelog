@@ -1,0 +1,77 @@
+node-wrap-ansi (4.0.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Wed, 03 Nov 2021 07:23:23 +0100
+
+node-wrap-ansi (4.0.0-4) unstable; urgency=medium
+
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-string-width and
+      node-strip-ansi.
+    + node-wrap-ansi: Drop versioned constraint on node-ansi-styles,
+      node-string-width and node-strip-ansi in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Wed, 15 Sep 2021 11:47:30 +0100
+
+node-wrap-ansi (4.0.0-3) unstable; urgency=low
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 02:03:57 +0100
+
+node-wrap-ansi (4.0.0-2) unstable; urgency=medium
+
+  * Use pkg-js-autopkgtest
+  * Use FORCE_COLOR environment variable in tests to avoid FTBFS
+  * No need to spoof support-color in tests
+  * Install files in /usr/share/nodejs
+  * Update Standards-Version
+  * Update debhelper version to 12 using debhelper-compat
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 29 Oct 2019 16:45:07 +0100
+
+node-wrap-ansi (4.0.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Honor DEB_BUILD_OPTIONS
+  * Fix nodejs binary
+  * Bump standard version
+  * Update copyright
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Add missing build deps (Closes: #902511)
+  * Bump debhelper version and get rid of dependency on dh-buildinfo
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Wed, 21 Nov 2018 15:07:33 +0100
+
+node-wrap-ansi (3.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards version and fix section
+  * Spoof chalk color support in the test suite and enable tests
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 07 Dec 2017 15:43:47 +0100
+
+node-wrap-ansi (2.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845262)
+  * Add a patch to use mocha as test runner rather than ava and to
+    skip the xo style linter test step and the nyc (istanbul) coverage
+    test.
+  * Disable tests for the moment being due some issues with
+    the test environment.
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Sat, 26 Nov 2016 09:22:34 +0000
