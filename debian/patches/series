@@ -1,1 +1,2 @@
-00-mocha.diff
+export-commonjs-files.patch
+replace-ava-by-tape.patch

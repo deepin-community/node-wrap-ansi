@@ -1,3 +1,27 @@
+node-wrap-ansi (8.0.1+~8.0.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Fix commonjs build
+
+ -- Yadd <yadd@debian.org>  Mon, 28 Nov 2022 06:41:22 +0100
+
+node-wrap-ansi (8.0.1+~8.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Build commonjs file using mjs2cjs
+
+ -- Yadd <yadd@debian.org>  Mon, 14 Feb 2022 12:13:02 +0100
+
+node-wrap-ansi (8.0.1+~8.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Embed typescript declarations
+  * New upstream version 8.0.1+~8.0.1
+  * Build commonjs files with babel
+  * Update test: use tape instead of mocha to replace ava
+
+ -- Yadd <yadd@debian.org>  Sun, 30 Jan 2022 14:04:02 +0100
+
 node-wrap-ansi (4.0.0-5) unstable; urgency=medium
 
   * Team upload

@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: wrap-ansi
 Upstream-Contact: https://github.com/chalk/wrap-ansi/issues
 Source: https://github.com/chalk/wrap-ansi#readme
+ https://registry.npmjs.org/@types/wrap-ansi
 
 Files: *
 Copyright: 2016-2018, Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
@@ -9,6 +10,11 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016-2018, Paolo Greppi <paolo.greppi@libpf.com>
+ 2022, Yadd <yadd@debian.org>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat
