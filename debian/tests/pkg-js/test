@@ -1,1 +1,1 @@
-FORCE_COLOR=3 mocha -u tdd --reporter spec
+FORCE_COLOR=3 tape test.js

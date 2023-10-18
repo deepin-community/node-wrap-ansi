@@ -1,0 +1,5 @@
+# Generic types-* path
+add-component-copyright types-*
+# False positive
+source-is-missing test.js
+source-contains-prebuilt-javascript-object test.js

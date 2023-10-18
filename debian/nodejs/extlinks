@@ -1,0 +1,9 @@
+@rollup/plugin-commonjs
+@rollup/plugin-node-resolve
+rollup-plugin-terser
+chalk	test
+ansi-styles	test
+has-ansi	test
+strip-ansi	test
+string-width	test
+tape	test
